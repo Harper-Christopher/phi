@@ -1,0 +1,249 @@
+/* CSS for the head. */
+header {
+    display: flex;
+    flex-direction: column;
+    background: #1e2748;
+}
+
+.moto {
+    display: flex;
+    color: white;
+    text-align: center;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    max-width: 250px;
+    margin: 1rem auto;
+    animation: logo 1s;
+}
+
+@keyframes logo {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+ul {
+    margin: 0;
+}
+
+nav {
+    font-family: 'Cabin', sans-serif;
+    background-color: #1e2748;
+}
+
+.navigation {
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.navigation a:hover {
+    background-color: #307ad9;
+    font-weight: 700;
+}
+
+.navigation li a:hover {
+    color: #ffffff;
+  }
+  
+.responsive li {
+    display: block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+}
+
+a:hover {
+    color: white;
+
+}
+
+.menu-icon {
+    cursor: pointer;
+    width: 42px;
+    margin: auto;
+  }
+  
+  #menu-icon::after, 
+  #menu-icon::before, 
+  #menu-icon span {
+    background-color: #307ad9;
+    border-radius: 5px;
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 8px 0;
+    transition: all .3s ease-in-out;
+  }
+  
+  #menu-icon:hover::after, 
+  #menu-icon:hover::before, 
+  #menu-icon:hover span {
+    background: white;
+  }
+
+  .close::before {
+    transform: translateY(13px) rotate(45deg);
+  }
+  
+  .close::after {
+    transform: translateY(-13px) rotate(-45deg);
+  }
+  
+  .responsive span {
+    transform: scale(0);
+  }
+
+main {
+    width: 97%;
+    margin: 1rem auto;
+}
+
+.active {
+    background: #307ad9;
+}
+
+.home {
+    width: 100%;
+}
+
+.homeimg {
+    width: 95%;
+    max-width: 500px;
+    border-radius: 1rem;
+    transition: max-width .5s, width .5s, box-shadow .5s;
+}
+
+.homeimg:hover {
+    width: 100%;
+    max-width: 515px;
+    box-shadow: 5px 5px 10px #307ad9;
+}
+
+.outline {
+    display: flex;
+    flex-direction: column;
+    background: #307ad9;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviceOutline {
+    display: flex;
+    flex-direction: column;
+    background: #307ad9;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.innerline {
+    background: #1e2748;
+    border: solid 1px black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.innerline-review {
+    width: 94%;
+    background: #1e2748;
+    border: solid 1px black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.title {
+    color: #1e2748;
+    font-weight: bolder;
+    text-shadow: 1px 1px 3px #307ad9;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review2 {
+    display: none;
+}
+
+/* CSS for the footer */
+footer {
+    background: #1e2748;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .7rem;
+}
+
+footer div {
+    margin: 1rem auto;
+}
+
+.icon {
+    max-width: 48px;
+}
+
+.homeadvisor {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    max-width: 120px;
+    transition: max-width .5s;
+}
+
+.homeadvisor:hover {
+    max-width: 140px;
+}
+
+.badges {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.badges div {
+    width: 100%;
+}
+
+

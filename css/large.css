@@ -1,0 +1,65 @@
+/* Wide Desktop view*/
+@media only screen and (min-width: 60em) {
+
+    a {
+        margin: 0;
+    }
+    .navigation {
+        display: flex;
+    }
+
+    .navigation a {
+        font-size: 1.2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigatoin li a {
+        color: #40c9a2;
+    }
+
+    .outline {
+        flex-direction: row;
+    }
+
+    .serviceOutline {
+        flex-direction: row;
+    }
+
+    .innerline {
+        display: block;
+    }
+
+    .title {
+        font-size: 3.8rem;
+    }
+
+    .head {
+        flex-direction: row;
+    }
+
+    .logo {
+        margin: 2rem;
+    }
+
+    .moto {
+        font-size: 2.3rem;
+    }
+
+    .review {
+        display: none;
+    }
+
+    .review2 {
+        display: flex;
+    }
+
+}
