@@ -20,10 +20,23 @@
     .navigation li {
         display: block;
         flex: 1 1 100%;
+        overflow: hidden;
     }
 
-    .navigatoin li a {
-        color: #40c9a2;
+    navigation li::before {
+        content: '';
+        position: absolute;
+        width: 1.5em;
+        height: 100%;
+        background-color: black;
+        border-radius: 0;
+        top: 0;
+        left: -0.75em;
+        transition: 0.5s ease-out;
+    }
+    
+    navigation li:hover::before {
+        transform: scale(7);
     }
 
     .outline {
@@ -60,6 +73,14 @@
 
     .review2 {
         display: flex;
+    }
+
+    .full {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
     }
 
 }
