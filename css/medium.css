@@ -25,4 +25,12 @@
     .menu-icon {
         width: 55px;
       }
+
+      .outline, .serviceOutline {
+          font-size: 1.5rem;
+      }
+
+    .about-font {
+        font-size: 1.3rem;
+    }
 }

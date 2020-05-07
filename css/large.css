@@ -1,5 +1,5 @@
 /* Wide Desktop view*/
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 65em) {
 
     a {
         margin: 0;
@@ -41,6 +41,7 @@
 
     .outline {
         flex-direction: row;
+        margin: 1rem;
     }
 
     .serviceOutline {
@@ -75,12 +76,22 @@
         display: flex;
     }
 
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    
+    .justify-outline {
+        align-items: center;
+        justify-content: center;
+    }
+
     .full {
         width: 100%;
     }
 
-    h2 {
-        font-size: 2.5rem;
+    .large-center {
+        text-align: center;
     }
 
 }

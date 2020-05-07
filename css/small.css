@@ -12,7 +12,11 @@ header {
     margin: 1rem auto;
     align-items: center;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.1rem;   
+}
+
+.moto-animation {
+    animation: scale 3s;
 }
 
 img {
@@ -22,7 +26,10 @@ img {
 .logo {
     max-width: 250px;
     margin: 1rem auto;
-    animation: logo 1s;
+}
+
+.logo-animation {
+    animation: logo 2s;
 }
 
 @keyframes logo {
@@ -161,10 +168,13 @@ main {
     flex-direction: column;
     background: #307ad9;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 1rem auto;
+}
+
+.justify-small {
     align-items: center;
     justify-content: center;
 }
@@ -174,10 +184,10 @@ main {
     flex-direction: column;
     background: #307ad9;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
     border-radius: 1rem;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
 .innerline {
@@ -236,6 +246,10 @@ button#myBtn {
     margin: 1rem;
 }
 
+.contact-pic {
+    max-width: 254px;
+}
+
 /* CSS for the footer */
 footer {
     background: #1e2748;
@@ -262,7 +276,7 @@ footer div {
 }
 
 .homeadvisor:hover {
-    max-width: 140px;
+    max-width: 125px;
 }
 
 .badges {
@@ -427,3 +441,23 @@ footer div {
       transition-delay: 0.6s;
       opacity: 1;
     }
+
+    /* Moto animation */
+    @keyframes scale {
+  0% {
+    opacity: 0.2;
+    transform: scale(10);
+    filter: blur(10px);
+  }
+
+  50%,
+  85% {
+    opacity: 0.8;
+    transform: scale(1);
+    filter: blur(0);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
