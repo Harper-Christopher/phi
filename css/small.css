@@ -16,7 +16,7 @@ header {
 }
 
 .moto-animation {
-    animation: scale 3s;
+    animation: scale 2.5s;
 }
 
 img {
@@ -244,6 +244,7 @@ button#myBtn {
     color: white;
     padding: .5rem;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .contact-pic {
