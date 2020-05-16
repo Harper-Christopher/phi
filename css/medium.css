@@ -33,4 +33,8 @@
     .about-font {
         font-size: 1.3rem;
     }
+
+    .container, .container2, .container3 {
+        height: 400px;
+    }
 }

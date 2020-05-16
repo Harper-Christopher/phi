@@ -37,7 +37,7 @@ img {
     to {opacity: 1;}
 }
 
-h2 {
+ h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -208,7 +208,7 @@ main {
 .title {
     color: #1e2748;
     font-weight: bolder;
-    text-shadow: 1px 1px 3px #307ad9;
+    text-shadow: 2px 2px 5px #307ad9;
     padding: 1rem;
     margin: 1.5rem auto;
     text-align: center;
@@ -307,7 +307,7 @@ footer div {
 /*cards*/
 .container {
     width: 95%;
-    height: 400px;
+    height: 230px;
     max-width: 500px;
     border-radius: 1rem;
     transition: max-width .5s, width .5s, box-shadow .5s;
@@ -322,7 +322,7 @@ footer div {
 
 .container2 {
     width: 95%;
-    height: 400px;
+    height: 230px;
     max-width: 500px;
     border-radius: 1rem;
     transition: max-width .5s, width .5s, box-shadow .5s;
@@ -337,7 +337,7 @@ footer div {
 
 .container3 {
     width: 95%;
-    height: 400px;
+    height: 230px;
     max-width: 500px;
     border-radius: 1rem;
     transition: max-width .5s, width .5s, box-shadow .5s;
