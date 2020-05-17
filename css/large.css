@@ -68,6 +68,10 @@
         font-size: 2.3rem;
     }
 
+    .certificate-img-large {
+        max-width:none;
+    }
+
     .review {
         display: none;
     }
