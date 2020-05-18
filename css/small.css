@@ -24,7 +24,8 @@ img {
 }
 
 .certificate-img {
-    max-width: 700px;
+    max-width: 500px;
+    max-height: 390px;
 }
 
 .logo {

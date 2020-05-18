@@ -94,8 +94,16 @@
         width: 100%;
     }
 
+    .flex {
+        display: flex;
+    }
+
     .large-center {
         text-align: center;
+    }
+
+    .margin {
+        margin: auto;
     }
 
 }
