@@ -75,12 +75,26 @@ nav {
     display: none;
 }
 
+.menu {
+    display: block;
+    color: white;
+    text-align: center;
+    transition: 0.4s;
+}
+
 .navigation a {
     display: block;
-    padding: 0.75rem;
     text-align: center;
     text-decoration: none;
     transition: 0.4s;
+}
+
+.navOption {
+    padding: 0.50rem;
+}
+
+.navOption2 {
+    padding: 0 0 0.50rem 0
 }
 
 .navigation a:hover {
